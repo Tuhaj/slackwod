@@ -19,6 +19,6 @@ get '/' do
 #{wod_text}
 
 posted at: #{posted_at.to_s}
-link: https://www.facebook.com/#{page_id}/posts/#{item_id}"
+link: |https://www.facebook.com/#{page_id}/posts/#{item_id}|"
 
 end
